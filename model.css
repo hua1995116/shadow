@@ -1,0 +1,41 @@
+::-webkit-scrollbar{width:0px}
+.model{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top:0 ;
+	left: 0;
+	background: rgba(255,255,255,0.9);
+	z-index: 1000;
+	overflow:auto;
+	display: none;
+}
+.model_close{
+	width: 30px;
+	height:30px;
+	font-size: 30px;
+	line-height: 30px;
+	color: #000;
+	z-index: 122;
+	position: absolute;
+	right: 10px;
+	top:10px;
+	cursor: pointer;
+	transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-webkit-transform-origin: center center;
+	transform-origin: center center
+}
+.model_close:hover{
+	transform:rotate(180deg);
+	-webkit-transform:rotate(180deg);
+}
+.model_con{
+	width: 60%;
+	margin:0 auto;
+}
+.model_con img{
+	padding: 10px;
+	background: #fbfbfb;
+	width: 100%;
+}
